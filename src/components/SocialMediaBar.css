@@ -1,0 +1,33 @@
+.social-media-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 90%;
+    right: 40px;
+    transform: translateY(-50%);
+    z-index: 9999;
+  }
+  
+  .social-media-bar a {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .social-media-bar a:hover {
+    background-color: #555;
+  }
+  
+  .social-media-bar a svg {
+    width: 20px;
+    height: 20px;
+  }
+  
